@@ -15,7 +15,6 @@
     },
     "declaration-property-value-allowed-list": [{
             '/^color/': ['inherit', 'initial', '/(?<m>\$(?:[a-z[:digit:]]*-*)*)/'],
-            '/^background/': ['inherit', 'initial', '/(?<m>\$(?:[a-z[:digit:]]*-*)*)/'],
             '/^(font-family)/': ['inherit', 'initial', '/(?<m>\$(?:[a-z[:digit:]]*-*)*)/'],
             '/^(font-size)/': ['0', 'inherit', 'initial', '/(?<m>\$(?:[a-z[:digit:]]*-*)*)/'],
             '/^(letter-spacing)/': ['0', 'inherit', 'initial', 'normal', '/(?<m>\$(?:[a-z[:digit:]]*-*)*)/'],
