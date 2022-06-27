@@ -1,0 +1,32 @@
+.features {
+    background-color: $color-red;
+    margin-top: 80px;
+    padding: 16px;
+
+    &__image {
+        background: $color-plans;
+        width: 128px;
+        height: 128px;
+        border: 2px solid $color-dark-gray;
+        border-radius: $border-radius-features;
+        margin: auto;
+    }
+
+    &__items {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__item {
+    }
+
+    &__description {
+        color: $color-white;
+        font-size: $font-size-feature-description;
+        font-weight: bold;
+        text-align: center;
+    }
+}
