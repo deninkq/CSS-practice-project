@@ -1,7 +1,10 @@
 <article class="plan {{modifier}}">
-    <h1>{{plan-type}}</h1>
-    <h2>${{plan-price}}/month</h2>
-    <h3>{{plan-purpose}}</h3>
+    {{#if recommended}}
+    <p class="plan__annotation">{{recommended}}</p>
+    {{/if}}
+    <p class="plan__type">{{plan-type}}</p>
+    <h2 class="plan__price">${{plan-price}}/month</h2>
+    <p>{{plan-purpose}}</p>
     <ul class="plan__benefits">
         <li class="plan__benefit">{{workspaces}} Workspaces</li>
         <li class="plan__benefit">{{traffic}} Traffic</li>
@@ -9,6 +12,6 @@
         <li class="plan__benefit">{{support}} Support</li>
     </ul>
     <div>
-        <button>CHOOSE PLAN</button>
+        <button class="button button--plan">CHOOSE PLAN</button>
     </div>
 </article>

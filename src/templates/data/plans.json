@@ -1,6 +1,7 @@
 [
     {
-        "plan-type": "FREE PLAN",
+        "classes": "col-md-3",
+        "plan-type": "FREE",
         "plan-price": "0",
         "plan-purpose": "For hobby projects or small teams",
         "workspaces": "1",
@@ -9,8 +10,10 @@
         "support": "Basic"
     },
     {
+        "classes": "col-md-5",
         "modifier": "plan--hightlighted",
-        "plan-type": "RECOMENMENDED",
+        "recommended": "RECOMMENDED",
+        "plan-type": "PLUS",
         "plan-price": "29",
         "plan-purpose": "For ambitious projects",
         "workspaces": "5",
@@ -19,6 +22,7 @@
         "support": "Basic"
     },
     {
+        "classes": "col-md-3",
         "plan-type": "PREMIUM",
         "plan-price": "99",
         "plan-purpose": "Your enterprice solution",

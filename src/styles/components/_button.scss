@@ -1,4 +1,21 @@
 .button {
     outline: none;
     text-align: center;
+    font: inherit;
+
+    &--plan {
+        background-color: $color-secondary;
+        color: $color-white;
+        padding: 8px;
+        border-radius: $border-radius;
+        border: 1.5px solid $color-secondary;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover,
+        &:active {
+            background-color: $color-white;
+            color: $color-secondary;
+        }
+    }
 }
