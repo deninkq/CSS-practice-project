@@ -1,0 +1,13 @@
+.section-title {
+    text-align: center;
+    font-size: $font-size-section-title;
+    font-weight: bold;
+    margin: 20px 0;
+
+    &--green {
+        color: $color-primary;
+    }
+    &--white{
+        color: $color-white;
+    }
+ }
