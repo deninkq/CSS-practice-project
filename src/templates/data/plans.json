@@ -1,0 +1,35 @@
+[
+    {
+        "classes": "col-md-3",
+        "plan-type": "FREE",
+        "plan-price": "0",
+        "plan-purpose": "For hobby projects or small teams",
+        "workspaces": "1",
+        "traffic": "Unlimited",
+        "storage": "10GB",
+        "support": "Basic"
+    },
+    {
+        "classes": "col-md-5",
+        "modifier": "plan--hightlighted",
+        "recommended": "RECOMMENDED",
+        "plan-type": "PLUS",
+        "plan-price": "29",
+        "plan-purpose": "For ambitious projects",
+        "workspaces": "5",
+        "traffic": "Unlimited",
+        "storage": "100GB",
+        "support": "Basic"
+    },
+    {
+        "classes": "col-md-3",
+        "plan-type": "PREMIUM",
+        "plan-price": "99",
+        "plan-purpose": "Your enterprice solution",
+        "workspaces": "10",
+        "traffic": "Unlimited",
+        "storage": "Unlimited",
+        "support": "Priority"
+    }
+
+]
