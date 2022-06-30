@@ -1,5 +1,7 @@
 <main>
-    {{#each packages-plans}}
-    {{> _package-plan }}
-    {{/each}}
+    <div class="packages"> 
+        {{#each packages-plans}}
+        {{> _package-plan classes="col-md-8" }}
+        {{/each}}
+    </div>
 </main>

@@ -1,0 +1,53 @@
+.packages {
+    display: flex;
+    flex-direction: column;
+    margin: 36px 0;
+
+    &__plan {
+        padding: 32px 16px;
+        margin-bottom: 24px;
+        border: 4px solid $color-secondary;
+
+        &:hover,
+        &:active {
+            border: 4px solid $color-orange;
+        }
+
+        &--dark-green {
+            background-color: $color-secondary;
+
+            .packages__title {
+                color: $color-white;
+            }
+        }
+
+        &--light-green {
+            background-color: $color-plans;
+            text-align: right;
+        }
+        
+        &--green {
+            background-color: $color-plan-hightlighted;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    &__title {
+        color: $color-black;
+    }
+
+    &__subtitle {
+        color: $color-dark-gray;
+    }
+
+    &__description {
+        padding: 16px;
+        background-color: $color-white;
+        border: 1px solid $color-secondary;
+        font-size: $font-size-feature-description;
+        color: $color-secondary;
+    }
+}
