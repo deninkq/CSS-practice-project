@@ -1,15 +1,18 @@
 [
     {
+        "plan-color": "light-green",
         "package-plan-title": "PLUS",
         "package-plan-subtitle": "The most popular choice of our customers",
         "package-plan-desc": "Benefit from increased storage and faster support to ensure that your mission-critical data and applications are always available!"
     },
     {
+        "plan-color": "green",
         "package-plan-title": "FREE",
         "package-plan-subtitle": "An extemely solid start into our hosting word",
         "package-plan-desc": "Get started immediately at zero cost!"
     },
     {
+        "plan-color": "dark-green",
         "package-plan-title": "PREMIUM",
         "package-plan-subtitle": "All your enterprise needs, instant support, guaranteed uptime",
         "package-plan-desc": "The best solution for small to large enterprises. Because hosting shoudn't be in the way!"
