@@ -1,0 +1,15 @@
+[
+    {
+        "img-source": "../../assets/images/customer-1.jpg",
+        "name": "Mike Statham",
+        "subtitle": "Founder of tech-analysis.com",
+        "text": "uHost helped me realize my project with a ighly constrained budget in like no time."
+       
+    },
+    {
+        "img-source": "../../assets/images/customer-2.jpg",
+        "name": "John Mellow",
+        "subtitle": "Hosts his private videos on uHost.",
+        "text": "I worked as a blogger and always looked for an integrated hosting and file storage solution. I found it in uHost!"
+    }
+]
