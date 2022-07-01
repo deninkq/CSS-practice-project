@@ -1,0 +1,43 @@
+.testimonial {
+    font-size: $font-size-feature-description;
+    margin: 48px 0;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    &:first-of-type {
+        margin-top: 96px;
+        flex-direction: row;
+    }
+
+    &__image-container{
+        max-width: 580px;
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: attr(width) / attr(height);
+    }
+
+    &__info {
+        text-align: right;
+        padding: 14px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    &__name {
+        margin: 3px;
+        color: $color-red;
+    }
+
+    &__subtitle {
+        margin: 0;
+        font-size: $font-size-plans;
+        color: $color-gray;
+    }
+
+    &__text {
+        margin: 3px;
+    }
+}
